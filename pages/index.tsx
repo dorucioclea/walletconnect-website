@@ -25,7 +25,7 @@ const FAQ = () => (
         TAL.
       </StyledLink>
     </FAQContent>
-    <FAQContent title="How web frontend and mobile wallets communicate?">
+    <FAQContent title="What's the underlying tech?">
       This is developed on the {" "}
       <StyledLink type={Styled.PageLink} href={STACKS_URL}>
         Stacks blockchain.
