@@ -1,20 +1,18 @@
 import Head from "next/head";
 import Link from "next/link";
 import {
-  APPS_URL,
   DOCS_URL,
   GITHUB_URL,
-  STACKS_URL,
 } from "../common/constants";
 import { Styled, StyledLink } from "../components/StyledLinks";
 
 const Header = () => {
-  const title = `WalletConnect`;
-  const url = `https://walletconnect.org`;
-  const description = `Open protocol for connecting Wallets to Dapps`;
-  const keywords = `ethereum, cryptocurrency, wallet, mobile, connect, bridge, relay, proxy, standard, protocol, crypto, tokens, dapp`;
-  const twitterUsername = `@walletconnect`;
-  const facebookId = "365412154213405";
+  const title = `Taral`;
+  const url = `https://github.io/taral`;
+  const description = `TARAL is eliminating the friction, costs and time normally associated with trade finance.`;
+  const keywords = `taral, stacks, cryptocurrency, blockchain, bridge, relay, proxy, standard, protocol, crypto, tokens, dapp`;
+  const twitterUsername = `@taral`;
+  const facebookId = "<TARAL_FACEBOOK_ID>";
 
   return (
     <>
