@@ -1,7 +1,7 @@
 // internal and external links (urls)
-export const GITHUB_URL = "https://github.com/walletconnect";
-export const DOCS_URL = "https://docs.walletconnect.org/";
-export const WALLETS_URL = "https://registry.walletconnect.org/wallets";
+export const GITHUB_URL = "https://github.com/taltoken";
+export const STACKS_URL = "https://www.stacks.co/";
+export const DOCS_URL = "";
 export const APPS_URL = "https://registry.walletconnect.org/apps";
 export const WEB3MODAL_URL = "https://www.npmjs.com/package/web3modal";
 export const WEB3_QUICKSTART_URL =

@@ -4,7 +4,7 @@ import {
   APPS_URL,
   DOCS_URL,
   GITHUB_URL,
-  WALLETS_URL,
+  STACKS_URL,
 } from "../common/constants";
 import { Styled, StyledLink } from "../components/StyledLinks";
 
@@ -44,27 +44,21 @@ const Header = () => {
           <StyledLink href={GITHUB_URL} type={Styled.HeaderLink} external>
             GitHub
           </StyledLink>
-          <StyledLink href={DOCS_URL} type={Styled.HeaderLink} external>
-            Docs
-          </StyledLink>
         </div>
         <div className="z-20 flex">
           <div className="w-16 mx-6 sm:w-20 md:w-28">
             <Link href="/">
               <img
                 className="cursor-pointer object-fit"
-                src="walletconnect-logo.svg"
-                alt="walletconnect logo"
+                src="logo.svg"
+                alt="logo"
               />
             </Link>
           </div>
         </div>
         <div className="z-20 flex justify-around w-full sm:pl-10 md:pl-20">
-          <StyledLink href={WALLETS_URL} type={Styled.HeaderLink}>
-            Wallets
-          </StyledLink>
-          <StyledLink href={APPS_URL} type={Styled.HeaderLink}>
-            Apps
+          <StyledLink href={DOCS_URL} type={Styled.HeaderLink} external>
+              Docs
           </StyledLink>
         </div>
       </header>

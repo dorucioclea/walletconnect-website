@@ -1,16 +1,16 @@
 {
-  "name": "walletconnect-website",
-  "description": "WalletConnect Website",
+  "name": "taral-website",
+  "description": "Taral Website",
   "version": "1.1.0",
   "private": true,
-  "author": "WalletConnect Labs <walletconnectlabs.com>",
+  "author": "Taral <cioclea.doru@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WalletConnect/walletconnect-website.git"
+    "url": "git+https://github.com/taltoken/taltoken-website.git"
   },
   "bugs": {
-    "url": "https://github.com/WalletConnect/walletconnect-website/issues"
+    "url": "https://github.com/taltoken/taltoken-website/issues"
   },
   "scripts": {
     "dev": "next dev",

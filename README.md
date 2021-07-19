@@ -1,6 +1,6 @@
-# WalletConnect website
+# Taral website
 
-[See live walletconnect.org](https://walletconnect.org)
+[See live github.io/taltoken](github.io/taltoken)
 
 # Local development
 
